@@ -323,6 +323,27 @@
         }
 
         .device-image {
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .device-image:hover {
+            transform: scale(1.02);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+        }
+
+        .hero-device-image {
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(255,255,255,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .hero-device-image:hover {
+            transform: scale(1.05);
+        }
+
+        .device-image {
             max-width: 400px;
             height: auto;
             border-radius: 12px;
@@ -437,6 +458,12 @@
                     <h2>Investment Opportunity</h2>
                     <div class="investment-amount">$500K</div>
                     <p style="font-size: 1.3rem; margin-bottom: 20px;">SAFE Note Investment</p>
+                    
+                    <!-- Featured GyroGlove Device -->
+                    <div style="margin: 32px 0;">
+                        <img src="GyroGear™ – The World's Most Advanced Hand Stabilizer_files/flat-lay-gyrogear-batt.png" alt="GyroGlove Device" class="hero-device-image" style="max-width: 280px;">
+                    </div>
+                    
                     <p style="font-size: 1.1rem;">Ready for Market Launch with Confirmed Revenue Pipeline</p>
                 </div>
 
@@ -460,8 +487,8 @@
             
             <div class="slide-content">
                 <!-- GyroGlove Device Image -->
-                <div style="text-align: center; margin: 24px 0;">
-                    <img src="GyroGear™ – The World's Most Advanced Hand Stabilizer_files/flat-lay-gyrogear-batt.png" alt="GyroGlove Device" class="device-image" style="max-width: 300px;">
+                <div style="text-align: center; margin: 32px 0;">
+                    <img src="GyroGear™ – The World's Most Advanced Hand Stabilizer_files/flat-lay-gyrogear-batt.png" alt="GyroGlove Device" class="device-image" style="max-width: 400px;">
                 </div>
                 
                 <div class="revenue-channels">
