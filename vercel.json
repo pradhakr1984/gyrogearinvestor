@@ -1,13 +1,4 @@
 {
-  "functions": {
-    "gyrogear-investment-deck.html": {
-      "runtime": "@vercel/static"
-    }
-  },
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/gyrogear-investment-deck.html"
-    }
-  ]
+  "cleanUrls": true,
+  "trailingSlash": false
 }
