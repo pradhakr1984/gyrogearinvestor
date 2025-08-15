@@ -1,0 +1,68 @@
+.elementor-kit-6{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-color-33ae3ac:#0C282E;--e-global-color-d36783c:#FC6042F2;--e-global-color-3e984c3:#FCC149;--e-global-typography-primary-font-family:"Manrope";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Manrope";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Manrope";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Manrope";--e-global-typography-accent-font-weight:500;--e-global-typography-2dd8390-font-family:"Manrope";--e-global-typography-2dd8390-font-size:110px;--e-global-typography-2dd8390-font-weight:600;--e-global-typography-2dd8390-text-transform:capitalize;--e-global-typography-2dd8390-line-height:108.9px;--e-global-typography-2dd8390-letter-spacing:-4.4px;--e-global-typography-d055114-font-family:"Manrope";--e-global-typography-d055114-font-size:130px;--e-global-typography-d055114-font-weight:700;--e-global-typography-d055114-text-transform:capitalize;--e-global-typography-d055114-line-height:142.35px;--e-global-typography-d055114-letter-spacing:-3.225px;--e-global-typography-6394a8b-font-family:"Manrope";--e-global-typography-6394a8b-font-size:120px;--e-global-typography-6394a8b-font-weight:700;--e-global-typography-6394a8b-text-transform:capitalize;--e-global-typography-6394a8b-line-height:116.4px;--e-global-typography-6394a8b-letter-spacing:-4.2px;--e-global-typography-cff1290-font-family:"Manrope";--e-global-typography-cff1290-font-size:82px;--e-global-typography-cff1290-font-weight:700;--e-global-typography-cff1290-text-transform:capitalize;--e-global-typography-cff1290-line-height:84.87px;--e-global-typography-cff1290-letter-spacing:-2.87px;--e-global-typography-49b5469-font-family:"Manrope";--e-global-typography-49b5469-font-size:18px;--e-global-typography-49b5469-font-weight:400;--e-global-typography-49b5469-line-height:28.8px;--e-global-typography-49b5469-letter-spacing:0.18px;--e-global-typography-f32a20f-font-family:"Manrope";--e-global-typography-f32a20f-font-size:22px;--e-global-typography-f32a20f-font-weight:500;--e-global-typography-f32a20f-line-height:33.4px;--e-global-typography-f32a20f-letter-spacing:0.11px;--e-global-typography-9b75ca2-font-family:"Manrope";--e-global-typography-9b75ca2-font-size:30px;--e-global-typography-9b75ca2-font-weight:600;--e-global-typography-9b75ca2-line-height:34.95px;--e-global-typography-9b75ca2-letter-spacing:-0.45px;--e-global-typography-b1671fa-font-family:"Manrope";--e-global-typography-b1671fa-font-size:12px;--e-global-typography-b1671fa-font-weight:300;--e-global-typography-b1671fa-line-height:20.04px;--e-global-typography-b1671fa-letter-spacing:0.48px;font-family:"Manrope", Sans-serif;}.elementor-kit-6 e-page-transition{background-color:#FFBC7D;}.elementor-kit-6 h1{font-family:"Manrope", Sans-serif;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-con{--container-max-width:1140px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;--widgets-spacing-row:20px;--widgets-spacing-column:20px;}{}h1.entry-title{display:var(--page-title-display);}.site-header .site-branding{flex-direction:column;align-items:stretch;}.site-header{padding-inline-end:0px;padding-inline-start:0px;}.site-footer .site-branding{flex-direction:column;align-items:stretch;}@media(max-width:1024px){.elementor-kit-6{--e-global-typography-2dd8390-font-size:80px;--e-global-typography-2dd8390-line-height:1em;--e-global-typography-2dd8390-letter-spacing:-1.6px;--e-global-typography-d055114-font-size:90px;--e-global-typography-d055114-line-height:1.1em;--e-global-typography-6394a8b-font-size:95px;--e-global-typography-6394a8b-line-height:1em;--e-global-typography-cff1290-font-size:60px;--e-global-typography-cff1290-line-height:1.1em;--e-global-typography-cff1290-letter-spacing:-1.7px;--e-global-typography-49b5469-font-size:16px;--e-global-typography-f32a20f-font-size:20px;--e-global-typography-9b75ca2-font-size:26px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-kit-6{--e-global-typography-2dd8390-font-size:50px;--e-global-typography-d055114-font-size:65px;--e-global-typography-6394a8b-font-size:60px;--e-global-typography-cff1290-font-size:40px;--e-global-typography-49b5469-font-size:16px;--e-global-typography-f32a20f-font-size:18px;--e-global-typography-9b75ca2-font-size:20px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@keyframes fadeDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0,-30px,0)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
+}
+
+.elementor-element.fadeInDown {
+    animation-name: fadeDown
+}
+
+@keyframes fadeLeft {
+    from {
+        opacity: 0;
+        transform: translate3d(-30px,0,0)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
+}
+
+.elementor-element.fadeInLeft {
+    animation-name: fadeLeft
+}
+
+@keyframes fadeRight {
+    from {
+        opacity: 0;
+        transform: translate3d(30px,0,0)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
+}
+
+.elementor-element.fadeInRight {
+    animation-name: fadeRight
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0,30px,0)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
+}
+
+.elementor-element.fadeInUp {
+    animation-name: fadeUp
+}/* End custom CSS */
